@@ -23,9 +23,10 @@ rem %PYTHONUSERBASE%;%BASE_PYTHON%\Lib;%BASE_PYTHON%\DLLs;%BASE_PYTHON%\Scripts;
 @rem %PIP_EXE% cpython cython segment_geospatial
 @rem Daqui pra frente se digitar "python.exe" vai abrir o python do dinamica
 
-curl --ssl-no-revoke -o "%FOLDER_DEV_PYTHON%\dinamicaClass.py" https://raw.githubusercontent.com/asfixia/DinamicaEGOUtils/master/dinamicaClass.py
 
 @mkdir "%FOLDER_DEV_PYTHON%"
+copy "%~dp0dinamicaClass.py" "%FOLDER_DEV_PYTHON%\dinamicaClass.py"
+copy "%~dp0dinamicaEnvironments.py" "%FOLDER_DEV_PYTHON%\dinamicaEnvironments.py"
 
 @explorer %FOLDER_DEV_PYTHON%
 timeout 6 >NUL
