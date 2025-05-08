@@ -6,7 +6,9 @@
 ## How to use it:
 clone or download this repository:
 
+```
 git clone https://github.com/papabricio/DinamicaEGOpython.git
+```
 
 ```
 cd DinamicaEGOpython
