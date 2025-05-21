@@ -1,4 +1,4 @@
-@SET BASE_PYTHON=C:\Users\%USERNAME%\AppData\Local\Dinamica EGO 8\PyEnvironment
+@SET BASE_PYTHON=%USERPROFILE%\AppData\Local\Dinamica EGO 8\PyEnvironment
 @SET FOLDER_DEV_PYTHON=%BASE_PYTHON%\..\pythonDinamica\
 @SET PYTHONHOME=%BASE_PYTHON%
 @SET PYTHON_INCLUDE=%PYTHONHOME%\include
